@@ -41,28 +41,28 @@ export default function CompanyDetails() {
       </div>
 
       <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
-        <TabsList className="flex w-full mb-8 bg-transparent border-b border-gray-200 rounded-none p-0 h-auto">
+        <TabsList className="flex w-full mb-8 bg-gray-100/50 p-1 rounded-xl border border-gray-200/50">
           <TabsTrigger 
             value="plano-contas" 
-            className="flex-1 rounded-none border-b-2 border-transparent data-active:border-virgula-green data-active:text-virgula-green data-active:bg-transparent data-active:shadow-none py-3 text-base font-medium text-gray-500 hover:text-gray-700 transition-colors"
+            className="flex-1 rounded-lg border-none data-selected:bg-white data-selected:text-virgula-green data-selected:shadow-sm py-2.5 text-sm font-medium text-gray-500 hover:text-gray-700 transition-all"
           >
             Plano de Contas
           </TabsTrigger>
           <TabsTrigger 
             value="regras" 
-            className="flex-1 rounded-none border-b-2 border-transparent data-active:border-virgula-green data-active:text-virgula-green data-active:bg-transparent data-active:shadow-none py-3 text-base font-medium text-gray-500 hover:text-gray-700 transition-colors"
+            className="flex-1 rounded-lg border-none data-selected:bg-white data-selected:text-virgula-green data-selected:shadow-sm py-2.5 text-sm font-medium text-gray-500 hover:text-gray-700 transition-all"
           >
             Vínculos Contábeis
           </TabsTrigger>
           <TabsTrigger 
             value="importar" 
-            className="flex-1 rounded-none border-b-2 border-transparent data-active:border-virgula-green data-active:text-virgula-green data-active:bg-transparent data-active:shadow-none py-3 text-base font-medium text-gray-500 hover:text-gray-700 transition-colors"
+            className="flex-1 rounded-lg border-none data-selected:bg-white data-selected:text-virgula-green data-selected:shadow-sm py-2.5 text-sm font-medium text-gray-500 hover:text-gray-700 transition-all"
           >
             Importar OFX
           </TabsTrigger>
           <TabsTrigger 
             value="lancamentos" 
-            className="flex-1 rounded-none border-b-2 border-transparent data-active:border-virgula-green data-active:text-virgula-green data-active:bg-transparent data-active:shadow-none py-3 text-base font-medium text-gray-500 hover:text-gray-700 transition-colors"
+            className="flex-1 rounded-lg border-none data-selected:bg-white data-selected:text-virgula-green data-selected:shadow-sm py-2.5 text-sm font-medium text-gray-500 hover:text-gray-700 transition-all"
           >
             Lançamentos
           </TabsTrigger>
