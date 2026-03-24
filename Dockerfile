@@ -32,8 +32,9 @@ COPY server.js ./
 # Create backup directory
 RUN mkdir -p /backup
 
-# Set port
+# Set port and environment
 ENV PORT=80
+ENV NODE_ENV=production
 
 # Expose port 80
 EXPOSE 80
